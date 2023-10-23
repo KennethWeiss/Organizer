@@ -4,5 +4,5 @@ from django.shortcuts import render, HttpResponse
 def todo_main(request):
     return HttpResponse("Todo List")
 
-def home(request):
+def todo_home(request):
     return HttpResponse("Home")
